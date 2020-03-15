@@ -11,6 +11,7 @@ $(document).ready(function() {
             data: todo,
             success: function(data) {
                 //do something with the data via front-end framework
+                console.log('submit success');
                 location.reload();
             }
         });

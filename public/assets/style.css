@@ -13,10 +13,6 @@ body {
     box-sizing: border-box;
 }
 
-#todo-table form{
-    overflow: hidden;
-}
-
 #todo-table form:after {
     margin: 0;
     content: '';
